@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ─── SEO ───────────────────────────────────────────────────────── -->
+  <title>Portfolio — Reda HINA | BTS SIO SISR 2026</title>
+  <meta name="description" content="Portfolio de Reda HINA, étudiant en 2ème année de BTS SIO SISR à Levallois-Perret. Spécialisé en administration systèmes et réseaux, cybersécurité et infrastructures.">
+  <meta name="author" content="Reda HINA">
+  <meta name="robots" content="index, follow">
+
+  <!-- ─── Open Graph ────────────────────────────────────────────────── -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://redahina76.wixsite.com/reda-hina">
+  <meta property="og:title"       content="Portfolio — Reda HINA | BTS SIO SISR">
+  <meta property="og:description" content="Étudiant en 2ème année de BTS SIO SISR. Réalisations E6 : VLAN/NAT Cisco, Active Directory Windows Server 2022. Veille IA & Cybersécurité.">
+  <meta property="og:image"       content="https://redahina76.wixsite.com/reda-hina/og-image.png">
+  <meta property="og:locale"      content="fr_FR">
+
+  <!-- ─── Favicon SVG (data URI) ────────────────────────────────────── -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0a0f'/%3E%3Ctext x='50%25' y='54%25' font-family='monospace' font-size='18' font-weight='bold' fill='%2300e5ff' text-anchor='middle' dominant-baseline='middle'%3ERH%3C/text%3E%3C/svg%3E">
+
+  <!-- ─── Google Fonts ──────────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+  <!-- ─── CSS externe ───────────────────────────────────────────────── -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Curseur personnalisé -->
+  <div class="cursor"      id="cursor"     aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Barre de progression scroll -->
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-bar" id="scroll-bar"></div>
+  </div>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════════════ -->
+  <nav>
+    <div class="nav-logo">RH_PORTFOLIO</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Accueil</a></li>
+      <li><a href="#e6">E6</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#veille">Veille</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-grid"  aria-hidden="true"></div>
+    <div class="hero-orb orb1" aria-hidden="true"></div>
+    <div class="hero-orb orb2" aria-hidden="true"></div>
+    <div>
+      <div class="hero-tag">BTS SIO · Option SISR · Session 2026</div>
+      <h1 class="hero-name">REDA<br><span>HINA</span></h1>
+      <p class="hero-sub">Administrateur Systèmes &amp; Réseaux</p>
+      <p class="hero-desc">
+        Étudiant en 2ème année de BTS SIO SISR, passionné par la cybersécurité,
+        l'infrastructure réseau et les nouvelles technologies.
+      </p>
+      <div class="hero-cta">
+        <a href="#e6" class="btn btn-primary">Voir mes réalisations E6</a>
+        <a href="#veille" class="btn btn-outline">Veille technologique</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">2ème</span>
+          <span class="stat-label">Année BTS SIO</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">20</span>
+          <span class="stat-label">Ans</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">2</span>
+          <span class="stat-label">Réalisations E6</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">SISR</span>
+          <span class="stat-label">Option</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       ÉPREUVE E6
+  ════════════════════════════════════════════════════════════════ -->
+  <section id="e6">
+    <div class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag">Épreuve E6</span>
+        <h2 class="section-title">Réalisations Professionnelles</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="e6-grid">
+
+        <!-- Réalisation 1 -->
+        <article class="e6-card">
+          <div class="e6-num">E6 · Réalisation N°1</div>
+          <h3 class="e6-title">Segmentation VLAN &amp; Routage Inter-VLAN avec NAT</h3>
+          <p class="e6-context">
+            Restructuration de l'infrastructure réseau d'une PME en pleine expansion.
+            Passage d'un réseau « plat » à une architecture segmentée avec isolation des flux,
+            DHCP automatisé et accès Internet sécurisé via NAT.
+          </p>
+          <div class="e6-tags">
+            <span class="tag">Cisco IOS</span>
+            <span class="tag">VLAN / 802.1Q</span>
+            <span class="tag">DHCP</span>
+            <span class="tag">NAT</span>
+            <span class="tag purple">Packet Tracer</span>
+            <span class="tag green">Inter-VLAN Routing</span>
+          </div>
+          <details class="e6-detail">
+            <summary>Détails de la réalisation</summary>
+            <div class="e6-detail-content">
+              <div class="detail-block">
+                <h4>Contexte</h4>
+                <p>PME souhaitant isoler les services Administratif et Technique dans deux sous-réseaux distincts, avec communication inter-VLAN maîtrisée et connectivité WAN.</p>
+              </div>
+              <div class="detail-block">
+                <h4>Ressources fournies</h4>
+                <p>Cahier des charges technique avec besoins d'isolation, plan d'adressage IP segmenté en deux sous-réseaux distincts.</p>
+              </div>
+              <div class="detail-block">
+                <h4>Objectifs atteints</h4>
+                <ul>
+                  <li>Étanchéité entre services tout en maintenant communication inter-VLAN</li>
+                  <li>Automatisation de la configuration réseau via DHCP</li>
+                  <li>Connectivité Internet via translation NAT</li>
+                </ul>
+              </div>
+              <div class="detail-block">
+                <h4>Matériels utilisés</h4>
+                <ul>
+                  <li>Routeur de services intégrés (routage inter-VLAN + WAN)</li>
+                  <li>Switch manageable niveau 2</li>
+                  <li>2 postes clients (services Administratif &amp; Technique)</li>
+                </ul>
+              </div>
+              <div class="detail-block">
+                <h4>Logiciels</h4>
+                <ul>
+                  <li>Cisco Packet Tracer (conception &amp; simulation CLI)</li>
+                  <li>Commandes ICMP/Ping pour validation DNS et accès Internet</li>
+                </ul>
+              </div>
+              <div class="detail-block">
+                <h4>Compétences mobilisées</h4>
+                <ul>
+                  <li>Concevoir une solution d'infrastructure réseau</li>
+                  <li>Installer, tester et déployer une solution réseau</li>
+                  <li>Exploiter, dépanner et superviser une infrastructure</li>
+                </ul>
+              </div>
+            </div>
+          </details>
+        </article>
+
+        <!-- Réalisation 2 -->
+        <article class="e6-card">
+          <div class="e6-num">E6 · Réalisation N°2</div>
+          <h3 class="e6-title">Déploiement Active Directory DS, DHCP &amp; DNS sous Windows Server 2022</h3>
+          <p class="e6-context">
+            Mise en place d'un contrôleur de domaine complet pour centraliser la gestion
+            des utilisateurs et des ressources. Remplacement des comptes locaux par une
+            politique de sécurité homogène et automatisée.
+          </p>
+          <div class="e6-tags">
+            <span class="tag">Windows Server 2022</span>
+            <span class="tag">Active Directory DS</span>
+            <span class="tag">DNS / DHCP</span>
+            <span class="tag purple">Hyper-V / VMware</span>
+            <span class="tag green">RSAT</span>
+          </div>
+          <details class="e6-detail">
+            <summary>Détails de la réalisation</summary>
+            <div class="e6-detail-content">
+              <div class="detail-block">
+                <h4>Contexte</h4>
+                <p>Organisation utilisant des comptes locaux sur chaque poste, rendant l'administration complexe et peu sécurisée. Déploiement d'un domaine interne (ex : insta.local) pour centraliser la gestion.</p>
+              </div>
+              <div class="detail-block">
+                <h4>Ressources fournies</h4>
+                <p>Serveur vierge sous Windows Server, nom de domaine interne, besoins de création d'Unités d'Organisation (OU) pour différents services.</p>
+              </div>
+              <div class="detail-block">
+                <h4>Objectifs atteints</h4>
+                <ul>
+                  <li>Domaine fonctionnel avec authentification centralisée</li>
+                  <li>Résolution de noms interne efficace via DNS</li>
+                  <li>Attribution automatique des configurations IP via DHCP</li>
+                </ul>
+              </div>
+              <div class="detail-block">
+                <h4>Matériels utilisés</h4>
+                <ul>
+                  <li>Serveur physique/virtualisé dédié (Contrôleur de Domaine)</li>
+                  <li>Postes clients Windows 10/11 pour test de jonction au domaine</li>
+                </ul>
+              </div>
+              <div class="detail-block">
+                <h4>Logiciels</h4>
+                <ul>
+                  <li>Windows Server 2022</li>
+                  <li>RSAT (Utilisateurs &amp; Ordinateurs AD, Gestionnaire DNS/DHCP)</li>
+                  <li>Documentation Microsoft Learn (AD DS)</li>
+                </ul>
+              </div>
+              <div class="detail-block">
+                <h4>Compétences mobilisées</h4>
+                <ul>
+                  <li>Concevoir une solution d'infrastructure réseau</li>
+                  <li>Installer, tester et déployer une solution réseau</li>
+                  <li>Exploiter, dépanner et superviser une infrastructure</li>
+                </ul>
+              </div>
+            </div>
+          </details>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       COMPÉTENCES
+  ════════════════════════════════════════════════════════════════ -->
+  <section id="competences" style="background: var(--surface);">
+    <div class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag">Stack technique</span>
+        <h2 class="section-title">Compétences</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <div class="skill-icon">🌐</div>
+          <div class="skill-name">Réseaux TCP/IP</div>
+          <div class="skill-sub">VLAN, NAT, DHCP, DNS</div>
+          <div class="skill-level"><div class="skill-bar" style="width:85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">🔧</div>
+          <div class="skill-name">Cisco IOS</div>
+          <div class="skill-sub">CLI, Packet Tracer, inter-VLAN</div>
+          <div class="skill-level"><div class="skill-bar" style="width:78%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">🪟</div>
+          <div class="skill-name">Windows Server</div>
+          <div class="skill-sub">AD DS, GPO, RSAT — 2022</div>
+          <div class="skill-level"><div class="skill-bar" style="width:80%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">🐧</div>
+          <div class="skill-name">Linux</div>
+          <div class="skill-sub">Administration système</div>
+          <div class="skill-level"><div class="skill-bar" style="width:65%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">🛡️</div>
+          <div class="skill-name">Cybersécurité</div>
+          <div class="skill-sub">Firewall, VPN, Zero Trust</div>
+          <div class="skill-level"><div class="skill-bar" style="width:70%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">☁️</div>
+          <div class="skill-name">Virtualisation</div>
+          <div class="skill-sub">Hyper-V, VMware</div>
+          <div class="skill-level"><div class="skill-bar" style="width:72%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       VEILLE TECHNOLOGIQUE
+  ════════════════════════════════════════════════════════════════ -->
+  <section id="veille">
+    <div class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag">Automatisée · IA &amp; Cybersécurité</span>
+        <h2 class="section-title">Veille Technologique</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <p class="veille-intro">
+        Cette veille est dédiée à l'intelligence artificielle appliquée à la cybersécurité — un domaine en pleine explosion
+        qui transforme aussi bien les capacités défensives que les menaces offensives. Les outils IA sont désormais
+        au cœur des SOC modernes, des systèmes de détection, et des stratégies de réponse aux incidents.
+      </p>
+
+      <div class="veille-grid">
+        <div class="veille-card">
+          <div class="veille-icon">🤖</div>
+          <div class="veille-content">
+            <h3>LLMs &amp; IA générative dans les attaques</h3>
+            <p>Les modèles de langage (LLM) sont exploités par des acteurs malveillants pour générer des campagnes de phishing ultra-personnalisées, créer des scripts malveillants sans expertise préalable, ou automatiser la reconnaissance de cibles. Des outils comme WormGPT ou FraudGPT circulent sur les marchés underground.</p>
+            <span class="tag">LLM</span>
+            <span class="tag purple">Phishing IA</span>
+            <span class="tag">WormGPT</span>
+          </div>
+        </div>
+        <div class="veille-card">
+          <div class="veille-icon">🔍</div>
+          <div class="veille-content">
+            <h3>IA pour la détection d'anomalies (EDR/XDR)</h3>
+            <p>Les solutions EDR et XDR modernes intègrent des modèles de machine learning pour détecter des comportements anormaux en temps réel, même pour des menaces inconnues (zero-day). CrowdStrike Falcon, SentinelOne ou Microsoft Defender utilisent des modèles entraînés sur des milliards d'événements.</p>
+            <span class="tag green">EDR / XDR</span>
+            <span class="tag">Anomaly Detection</span>
+            <span class="tag purple">Zero-Day</span>
+          </div>
+        </div>
+        <div class="veille-card">
+          <div class="veille-icon">⚡</div>
+          <div class="veille-content">
+            <h3>Automatisation SOC avec SOAR &amp; IA</h3>
+            <p>L'IA révolutionne les SOC en automatisant le triage des alertes, la corrélation d'événements et la réponse aux incidents. Des plateformes comme Palo Alto XSOAR ou Splunk SOAR permettent de réduire drastiquement le MTTR (Mean Time To Respond).</p>
+            <span class="tag">SOAR</span>
+            <span class="tag green">Automatisation</span>
+            <span class="tag">SIEM IA</span>
+          </div>
+        </div>
+        <div class="veille-card">
+          <div class="veille-icon">🧠</div>
+          <div class="veille-content">
+            <h3>IA adversariale &amp; attaques sur les modèles</h3>
+            <p>Les attaques par empoisonnement (data poisoning), injection de prompt ou évasion de modèles permettent de manipuler des systèmes basés sur l'IA. La robustesse des modèles de sécurité devient critique, notamment pour les IDS/IPS basés sur le machine learning.</p>
+            <span class="tag purple">Prompt Injection</span>
+            <span class="tag">Adversarial ML</span>
+            <span class="tag">Data Poisoning</span>
+          </div>
+        </div>
+        <div class="veille-card">
+          <div class="veille-icon">🛡️</div>
+          <div class="veille-content">
+            <h3>Zero Trust renforcé par l'IA</h3>
+            <p>Les systèmes d'authentification continue analysent en permanence le comportement utilisateur (UEBA — User and Entity Behavior Analytics) pour détecter des usurpations de comptes ou des accès inhabituels, même après authentification réussie. Microsoft et Zscaler proposent des solutions de ce type.</p>
+            <span class="tag green">Zero Trust</span>
+            <span class="tag">UEBA</span>
+            <span class="tag purple">Behavioral Analytics</span>
+          </div>
+        </div>
+        <div class="veille-card">
+          <div class="veille-icon">🔬</div>
+          <div class="veille-content">
+            <h3>Threat Intelligence automatisée par IA</h3>
+            <p>Les plateformes de Threat Intelligence intègrent des LLMs pour analyser automatiquement des flux CTI, résumer des rapports de menaces et corréler des IOC. Des solutions comme Recorded Future AI ou VirusTotal Intelligence réduisent la charge analytique des équipes sécurité.</p>
+            <span class="tag">CTI</span>
+            <span class="tag green">IOC</span>
+            <span class="tag purple">LLM Analysis</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- AUTO-VEILLE SÉCURISÉE -->
+      <div class="auto-veille-box">
+        <h3><span class="pulse-dot" aria-hidden="true"></span> Veille automatique en direct — IA &amp; Cybersécurité</h3>
+        <p>
+          Cliquez sur le bouton ci-dessous pour générer une mise à jour instantanée de la veille,
+          propulsée par l'API Claude via le backend sécurisé.
+          Chaque génération produit un article inédit sur les dernières avancées de l'IA dans la cybersécurité.
+        </p>
+        <button class="btn btn-primary" id="btn-generate" style="margin-bottom:1.2rem;">
+          ⚡ Générer une mise à jour
+        </button>
+        <div id="auto-veille-output" aria-live="polite">
+          <span style="color:var(--muted); font-family:'DM Mono',monospace; font-size:0.8rem;">
+            → Cliquez sur « Générer une mise à jour » pour obtenir un article de veille automatique...
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       À PROPOS
+  ════════════════════════════════════════════════════════════════ -->
+  <section id="about" style="background: var(--surface);">
+    <div class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag">Parcours</span>
+        <h2 class="section-title">À propos de moi</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Je m'appelle Reda HINA, j'ai 20 ans et je suis étudiant en deuxième année de BTS Services Informatiques aux Organisations (option SISR) à Levallois-Perret.</p>
+          <p>Passionné par le sport et l'informatique, ces deux domaines m'ont appris la persévérance, la rigueur et l'esprit d'équipe — des qualités essentielles dans le monde des systèmes et réseaux où chaque configuration compte.</p>
+          <p>Dans le cadre de ma formation, je me spécialise dans l'administration des systèmes et réseaux. J'apprends à gérer, sécuriser et optimiser les infrastructures informatiques, avec un intérêt particulier pour la cybersécurité et l'impact de l'IA sur ce domaine.</p>
+          <div class="about-info">
+            <div class="info-row"><span class="info-key">Formation</span><span class="info-val">BTS SIO SISR — Session 2026</span></div>
+            <div class="info-row"><span class="info-key">Année</span><span class="info-val">2ème année</span></div>
+            <div class="info-row"><span class="info-key">Âge</span><span class="info-val">20 ans</span></div>
+            <div class="info-row"><span class="info-key">Ville</span><span class="info-val">Levallois-Perret</span></div>
+            <div class="info-row"><span class="info-key">Spécialité</span><span class="info-val">Administration Systèmes &amp; Réseaux</span></div>
+          </div>
+        </div>
+        <div class="about-aside">
+          <div class="aside-card">
+            <h4>Centres d'intérêt</h4>
+            <p>⚽ Sport — discipline et esprit d'équipe<br>💻 Informatique &amp; Cybersécurité<br>🤖 Intelligence Artificielle<br>🔐 Sécurité des réseaux</p>
+          </div>
+          <div class="aside-card">
+            <h4>Objectifs</h4>
+            <p>Me spécialiser dans l'administration des infrastructures réseau et la cybersécurité. Approfondir mes connaissances des technologies cloud et des architectures Zero Trust.</p>
+          </div>
+          <div class="aside-card">
+            <h4>Documentation E6</h4>
+            <p>Tous les documents relatifs à mes réalisations professionnelles sont accessibles à l'adresse de ce portfolio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="section-wrap">
+      <div class="contact-inner">
+        <div class="section-header" style="justify-content:center; text-align:center; flex-direction:column; gap:0.8rem;">
+          <span class="section-tag">Me contacter</span>
+          <h2 class="section-title">Contact</h2>
+        </div>
+        <p>Étudiant en BTS SIO SISR, disponible pour des stages, alternances ou échanges autour des systèmes, réseaux et cybersécurité.</p>
+        <a href="https://redahina76.wixsite.com/reda-hina" class="contact-link" target="_blank" rel="noopener noreferrer">
+          🌐 redahina76.wixsite.com/reda-hina
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════════ -->
+  <footer>
+    <span>© 2026 Reda HINA — BTS SIO SISR</span>
+    <span class="accent">Portfolio · Session 2026</span>
+  </footer>
+
+  <!-- ════════════════════════════════════════════════════════════════
+       JAVASCRIPT
+  ════════════════════════════════════════════════════════════════ -->
+  <script>
+    // ─── Curseur personnalisé ──────────────────────────────────────
+    const cursor = document.getElementById('cursor');
+    const ring   = document.getElementById('cursor-ring');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+
+    (function animCursor() {
+      cursor.style.transform = `translate(${mx - 6}px,${my - 6}px)`;
+      rx += (mx - rx) * 0.12;
+      ry += (my - ry) * 0.12;
+      ring.style.transform = `translate(${rx - 18}px,${ry - 18}px)`;
+      requestAnimationFrame(animCursor);
+    })();
+
+    // ─── Barre de progression scroll ─────────────────────────────
+    const scrollBar = document.getElementById('scroll-bar');
+    window.addEventListener('scroll', () => {
+      const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
+      scrollBar.style.width = pct + '%';
+    }, { passive: true });
+
+    // ─── Auto-veille : appel vers le backend sécurisé ─────────────
+    document.getElementById('btn-generate').addEventListener('click', generateVeille);
+
+    async function generateVeille() {
+      const out = document.getElementById('auto-veille-output');
+      const btn = document.getElementById('btn-generate');
+
+      btn.disabled = true;
+      btn.textContent = '⏳ Génération…';
+      out.innerHTML = '<span class="loading-text">⏳ Connexion au serveur…</span>';
+
+      try {
+        // ✅ Appel vers NOTRE backend — la clé API reste côté serveur
+        const res = await fetch('/api/generate-veille', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+        });
+
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({ error: `Erreur HTTP ${res.status}` }));
+          throw new Error(err.error || `Erreur HTTP ${res.status}`);
+        }
+
+        const { title, category, content, generatedAt } = await res.json();
+
+        const dateLabel = new Date(generatedAt).toLocaleDateString('fr-FR', {
+          day: 'numeric', month: 'long', year: 'numeric',
+          hour: '2-digit', minute: '2-digit',
+        });
+
+        // Sanitization basique (évite XSS si le serveur renvoie du HTML)
+        const safe = str => str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+        out.innerHTML = `<span style="color:var(--accent);font-weight:700;font-size:0.9rem;">${safe(title)}</span>
+<span style="color:var(--accent3);font-size:0.7rem;display:block;margin:0.3rem 0 1rem;">[${safe(category)}] · Généré le ${dateLabel}</span>
+<span style="color:var(--text);">${safe(content)}</span>`;
+
+      } catch (err) {
+        out.innerHTML = `<span style="color:#f87171;">❌ ${err.message}</span>`;
+      } finally {
+        btn.disabled = false;
+        btn.textContent = '⚡ Générer une mise à jour';
+      }
+    }
+  </script>
+
+</body>
+</html>
